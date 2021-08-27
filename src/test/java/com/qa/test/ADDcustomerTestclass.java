@@ -25,6 +25,7 @@ public class ADDcustomerTestclass extends BaseDriver
 		login= new 	loginPage();
 		login.login();
 		addCustomerPage addCust= new addCustomerPage();
+		//
 	}
 	
 	@Test
