@@ -28,6 +28,7 @@ public class BaseDriver
 		try
 		{
 		System.setProperty("webdriver.chrome.driver", "D:\\ecclipse\\POMTest\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.silentOutput", "true");
 		log=Logger.getLogger(Log.class.getName());
 		PropertyConfigurator.configure("log4j.properties");
 		driver= new ChromeDriver();
