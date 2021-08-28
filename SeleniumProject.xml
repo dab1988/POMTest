@@ -7,13 +7,34 @@
 
 </listeners>
 
-  <test name="Test">
+  <test name="AddCuatomerTestTest">
     <classes>
      
            <class name="com.qa.test.ADDcustomerTestclass"/>
-            <class name="com.qa.test.loginTest"/>
-              <class name="com.qa.test.uiTestforLoginPage"/>
     </classes>
   </test> <!-- Test -->
+  
+   <test name="loginTest">
+    <classes>
+     
+                    <class name="com.qa.test.loginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="uiLoginTest">
+    <classes>
+    
+             <class name="com.qa.test.uiTestforLoginPage"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  <test name="createDiscountTest">
+    <classes>
+             <class name="com.qa.test.createDiscountTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
 

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.test.loginTest" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,7 +107,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.test.createDiscountTest" hash-for-method="createDiscount">createDiscount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.test.ADDcustomerTestclass" hash-for-method="runTest">runTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.test.loginTest" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -141,47 +137,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.qa.test.loginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateTitle">
-                  </a> <!-- validateTitle -->
-                  <span class="method-name">validateTitle</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.qa.test.loginTest.validateTitle(loginTest.java:31)
-	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1010)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:862)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:755)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
-	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
-	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
-	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -200,6 +155,36 @@
                   <a name="validateWelcomeText">
                   </a> <!-- validateWelcomeText -->
                   <span class="method-name">validateWelcomeText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.loginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitle">
+                  </a> <!-- validateTitle -->
+                  <span class="method-name">validateTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.createDiscountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createDiscount">
+                  </a> <!-- createDiscount -->
+                  <span class="method-name">createDiscount</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,13 +217,26 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;REPORTING.extentReport&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;Test&quot;&gt;
+  &lt;test name=&quot;AddCuatomerTestTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.test.ADDcustomerTestclass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddCuatomerTestTest --&gt;
+  &lt;test name=&quot;loginTest&quot;&gt;
+    &lt;classes&gt;
       &lt;class name=&quot;com.qa.test.loginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- loginTest --&gt;
+  &lt;test name=&quot;uiLoginTest&quot;&gt;
+    &lt;classes&gt;
       &lt;class name=&quot;com.qa.test.uiTestforLoginPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- uiLoginTest --&gt;
+  &lt;test name=&quot;createDiscountTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.test.createDiscountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- createDiscountTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -250,7 +248,16 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">AddCuatomerTestTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">loginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">uiLoginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">createDiscountTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,28 +283,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'runTest')
-data.setCell(0, 2, 'com.qa.test.ADDcustomerTestclass')
-data.setCell(0, 3, 12789);
+data.setCell(0, 1, 'createDiscount')
+data.setCell(0, 2, 'com.qa.test.createDiscountTest')
+data.setCell(0, 3, 8223);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'RememberMeTextValidation')
-data.setCell(1, 2, 'com.qa.test.uiTestforLoginPage')
-data.setCell(1, 3, 159);
+data.setCell(1, 1, 'runTest')
+data.setCell(1, 2, 'com.qa.test.ADDcustomerTestclass')
+data.setCell(1, 3, 6552);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateWelcomeText')
+data.setCell(2, 1, 'RememberMeTextValidation')
 data.setCell(2, 2, 'com.qa.test.uiTestforLoginPage')
-data.setCell(2, 3, 152);
+data.setCell(2, 3, 68);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateTitle')
-data.setCell(3, 2, 'com.qa.test.loginTest')
-data.setCell(3, 3, 1);
+data.setCell(3, 1, 'validateWelcomeText')
+data.setCell(3, 2, 'com.qa.test.uiTestforLoginPage')
+data.setCell(3, 3, 36);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateTitle')
+data.setCell(4, 2, 'com.qa.test.loginTest')
+data.setCell(4, 3, 11);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -330,49 +341,64 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runTest</span>
-                <span class="method-start">31596 ms</span>
+                <span class="method-start">9982 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">kill</span>
-                <span class="method-start">44423 ms</span>
+                <span class="method-start">16558 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.test.loginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">44425 ms</span>
+                <span class="method-start">17658 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">validateTitle</span>
-                <span class="method-start">65568 ms</span>
+                <span class="method-start">24699 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">captureFailedTestCase([TestResult name=validateTitle status=FAILURE method=loginTest.validateTitle()[pri:0, instance:com.q...)</span>
-                <span class="method-start">65573 ms</span>
+                <span class="method-name">captureFailedTestCase([TestResult name=validateTitle status=SUCCESS method=loginTest.validateTitle()[pri:0, instance:com.q...)</span>
+                <span class="method-start">24711 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">kill</span>
+                <span class="method-start">24712 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.test.uiTestforLoginPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">65579 ms</span>
+                <span class="method-start">25499 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">RememberMeTextValidation</span>
-                <span class="method-start">77703 ms</span>
+                <span class="method-start">29267 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateWelcomeText</span>
-                <span class="method-start">77863 ms</span>
+                <span class="method-start">29338 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">kill</span>
-                <span class="method-start">78016 ms</span>
+                <span class="method-start">29375 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.createDiscountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30082 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createDiscount</span>
+                <span class="method-start">37582 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">kill</span>
+                <span class="method-start">45806 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

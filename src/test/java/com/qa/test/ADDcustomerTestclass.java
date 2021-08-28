@@ -72,6 +72,6 @@ public class ADDcustomerTestclass extends BaseDriver
 	@AfterClass
 	void kill() 
 	{
-		//BaseDriver.closeDriver();	
+		BaseDriver.closeDriver();	
 	}
 }

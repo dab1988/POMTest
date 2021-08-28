@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 81.877 sec <<< FAILURE! - in TestSuite
-validateTitle(com.qa.test.loginTest)  Time elapsed: 0.004 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.qa.test.loginTest.validateTitle(loginTest.java:31)
-
-captureFailedTestCase(com.qa.test.loginTest)  Time elapsed: 0.009 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.qa.test.loginTest.captureFailedTestCase(loginTest.java:40)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.626 sec - in TestSuite

@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9799" started-at="2021-08-28T06:05:23Z" finished-at="2021-08-28T06:05:32Z">
+  <suite name="Default suite" duration-ms="21556" started-at="2021-08-28T17:57:10Z" finished-at="2021-08-28T17:57:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9799" started-at="2021-08-28T06:05:23Z" finished-at="2021-08-28T06:05:32Z">
-      <class name="com.qa.goRestApi.getCall">
-        <test-method status="PASS" signature="goRestTest()[pri:0, instance:com.qa.goRestApi.getCall@3c0ecd4b]" name="goRestTest" duration-ms="9751" started-at="2021-08-27T23:05:23Z" finished-at="2021-08-27T23:05:32Z">
+    <test name="Default test" duration-ms="21556" started-at="2021-08-28T17:57:10Z" finished-at="2021-08-28T17:57:31Z">
+      <class name="com.qa.test.createDiscountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.createDiscountTest@402a079c]" name="setUp" is-config="true" duration-ms="9337" started-at="2021-08-28T10:57:10Z" finished-at="2021-08-28T10:57:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goRestTest -->
-      </class> <!-- com.qa.goRestApi.getCall -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createDiscount()[pri:0, instance:com.qa.test.createDiscountTest@402a079c]" name="createDiscount" duration-ms="12185" started-at="2021-08-28T10:57:19Z" finished-at="2021-08-28T10:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDiscount -->
+      </class> <!-- com.qa.test.createDiscountTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -4,8 +4,11 @@ D:\ecclipse\POMTest\src\test\java\com\qa\Base\WebDriverListener.java
 D:\ecclipse\POMTest\src\test\java\com\qa\utilPackage\captureScreenShots.java
 D:\ecclipse\POMTest\src\test\java\com\qa\pages\loginPage.java
 D:\ecclipse\POMTest\src\test\java\com\qa\test\ADDcustomerTestclass.java
+D:\ecclipse\POMTest\src\test\java\com\qa\pages\createDiscountPage.java
 D:\ecclipse\POMTest\src\test\java\com\qa\pages\customerPage.java
+D:\ecclipse\POMTest\src\test\java\com\qa\test\createDiscountTest.java
 D:\ecclipse\POMTest\src\test\java\com\qa\utilPackage\FrameWorkutilPack.java
+D:\ecclipse\POMTest\src\test\java\appplicationPagesSteps\promotionsPageSteps.java
 D:\ecclipse\POMTest\src\test\java\com\qa\test\uiTestforLoginPage.java
 D:\ecclipse\POMTest\src\test\java\com\qa\test\loginTest.java
 D:\ecclipse\POMTest\src\test\java\Utility\commomUtils.java

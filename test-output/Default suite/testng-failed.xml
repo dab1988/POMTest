@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.test.ADDcustomerTestclass">
+      <class name="com.qa.test.createDiscountTest">
         <methods>
-          <include name="runTest"/>
-          <include name="setuP"/>
-          <include name="kill"/>
+          <include name="setUp"/>
+          <include name="createDiscount"/>
         </methods>
-      </class> <!-- com.qa.test.ADDcustomerTestclass -->
+      </class> <!-- com.qa.test.createDiscountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

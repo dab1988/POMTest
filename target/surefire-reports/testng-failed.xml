@@ -4,34 +4,24 @@
   <listeners>
     <listener class-name="REPORTING.extentReport"/>
   </listeners>
-  <test name="Test">
+  <test name="AddCuatomerTestTest">
     <classes>
       <class name="com.qa.test.ADDcustomerTestclass"/>
+    </classes>
+  </test> <!-- AddCuatomerTestTest -->
+  <test name="loginTest">
+    <classes>
       <class name="com.qa.test.loginTest"/>
+    </classes>
+  </test> <!-- loginTest -->
+  <test name="uiLoginTest">
+    <classes>
       <class name="com.qa.test.uiTestforLoginPage"/>
     </classes>
-  </test> <!-- Test -->
-  <test name="Test(failed)">
+  </test> <!-- uiLoginTest -->
+  <test name="createDiscountTest">
     <classes>
-      <class name="com.qa.test.uiTestforLoginPage">
-        <methods>
-          <include name="setUpTest"/>
-          <include name="kill"/>
-        </methods>
-      </class> <!-- com.qa.test.uiTestforLoginPage -->
-      <class name="com.qa.test.loginTest">
-        <methods>
-          <include name="validateTitle"/>
-          <include name="captureFailedTestCase"/>
-          <include name="setUpTest"/>
-        </methods>
-      </class> <!-- com.qa.test.loginTest -->
-      <class name="com.qa.test.ADDcustomerTestclass">
-        <methods>
-          <include name="setuP"/>
-          <include name="kill"/>
-        </methods>
-      </class> <!-- com.qa.test.ADDcustomerTestclass -->
+      <class name="com.qa.test.createDiscountTest"/>
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- createDiscountTest -->
 </suite> <!-- Failed suite [Suite] -->

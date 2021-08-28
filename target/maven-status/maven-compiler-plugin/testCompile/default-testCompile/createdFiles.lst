@@ -1,3 +1,4 @@
+com\qa\test\createDiscountTest.class
 com\qa\test\uiTestforLoginPage.class
 appplicationPagesSteps\addCustomerPage.class
 REPORTING\extentReport.class
@@ -7,7 +8,9 @@ com\qa\test\ADDcustomerTestclass.class
 com\qa\utilPackage\FrameWorkutilPack.class
 com\qa\test\loginTest.class
 com\qa\utilPackage\captureScreenShots.class
+com\qa\pages\createDiscountPage.class
 com\qa\Base\WebDriverListener.class
+appplicationPagesSteps\promotionsPageSteps.class
 com\qa\utilPackage\selectDropDownValue.class
 com\qa\pages\loginPage.class
 Utility\commomUtils.class
