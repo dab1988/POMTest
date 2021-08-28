@@ -28,7 +28,7 @@ public class loginTest extends BaseDriver
 	@Test
 	void validateTitle()
 	{
-		Assert.assertEquals(ldriver.getTitle(), pro.getProperty("homePageTitle"));
+		Assert.assertEquals(driver.getTitle(), pro.getProperty("homePageTitle"));
 		log.info("Login Successful");
 	}
 	
@@ -37,7 +37,7 @@ public class loginTest extends BaseDriver
 	{
 		if(ITestResult.FAILURE==result.getStatus())
 		{
-			captureScreenShots.screenShot(ldriver, result.getName());
+			captureScreenShots.screenShot(driver, result.getName());
 			log.info("Screen Shot Captured");
 		}
 		

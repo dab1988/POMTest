@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="REPORTING.extentReport"/>
+  </listeners>
+  <test name="Test(failed)">
     <classes>
       <class name="com.qa.test.ADDcustomerTestclass">
         <methods>
-          <include name="runTest"/>
           <include name="setuP"/>
           <include name="kill"/>
         </methods>
       </class> <!-- com.qa.test.ADDcustomerTestclass -->
+      <class name="com.qa.test.loginTest">
+        <methods>
+          <include name="validateTitle"/>
+          <include name="captureFailedTestCase"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.qa.test.loginTest -->
+      <class name="com.qa.test.uiTestforLoginPage">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="kill"/>
+        </methods>
+      </class> <!-- com.qa.test.uiTestforLoginPage -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

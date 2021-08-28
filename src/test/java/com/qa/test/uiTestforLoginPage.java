@@ -55,6 +55,6 @@ loginPage login=null;
 	@AfterClass
 	void kill()
 	{
-	  //	BaseDriver.closeDriver();
+	  	BaseDriver.closeDriver();
 	}
 }

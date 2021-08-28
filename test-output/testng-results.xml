@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36447" started-at="2021-08-27T06:22:10Z" finished-at="2021-08-27T06:22:46Z">
+  <suite name="Default suite" duration-ms="9799" started-at="2021-08-28T06:05:23Z" finished-at="2021-08-28T06:05:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36447" started-at="2021-08-27T06:22:10Z" finished-at="2021-08-27T06:22:46Z">
-      <class name="com.qa.test.ADDcustomerTestclass">
-        <test-method status="PASS" signature="setuP()[pri:0, instance:com.qa.test.ADDcustomerTestclass@6e06451e]" name="setuP" is-config="true" duration-ms="24849" started-at="2021-08-26T23:22:10Z" finished-at="2021-08-26T23:22:35Z">
+    <test name="Default test" duration-ms="9799" started-at="2021-08-28T06:05:23Z" finished-at="2021-08-28T06:05:32Z">
+      <class name="com.qa.goRestApi.getCall">
+        <test-method status="PASS" signature="goRestTest()[pri:0, instance:com.qa.goRestApi.getCall@3c0ecd4b]" name="goRestTest" duration-ms="9751" started-at="2021-08-27T23:05:23Z" finished-at="2021-08-27T23:05:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setuP -->
-        <test-method status="PASS" signature="runTest()[pri:0, instance:com.qa.test.ADDcustomerTestclass@6e06451e]" name="runTest" duration-ms="11564" started-at="2021-08-26T23:22:35Z" finished-at="2021-08-26T23:22:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runTest -->
-        <test-method status="PASS" signature="kill()[pri:0, instance:com.qa.test.ADDcustomerTestclass@6e06451e]" name="kill" is-config="true" duration-ms="0" started-at="2021-08-26T23:22:46Z" finished-at="2021-08-26T23:22:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- kill -->
-      </class> <!-- com.qa.test.ADDcustomerTestclass -->
+        </test-method> <!-- goRestTest -->
+      </class> <!-- com.qa.goRestApi.getCall -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

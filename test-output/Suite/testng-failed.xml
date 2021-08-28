@@ -6,20 +6,19 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
+      <class name="com.qa.test.ADDcustomerTestclass">
+        <methods>
+          <include name="setuP"/>
+          <include name="kill"/>
+        </methods>
+      </class> <!-- com.qa.test.ADDcustomerTestclass -->
       <class name="com.qa.test.loginTest">
         <methods>
-          <include name="kill"/>
+          <include name="validateTitle"/>
           <include name="captureFailedTestCase"/>
           <include name="setUpTest"/>
         </methods>
       </class> <!-- com.qa.test.loginTest -->
-      <class name="com.qa.test.addCustomerTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="kill"/>
-          <include name="createCustomer" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.qa.test.addCustomerTest -->
       <class name="com.qa.test.uiTestforLoginPage">
         <methods>
           <include name="setUpTest"/>

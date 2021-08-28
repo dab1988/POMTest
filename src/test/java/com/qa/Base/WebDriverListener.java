@@ -142,7 +142,7 @@ public class WebDriverListener implements WebDriverEventListener
 
 	public void onException(Throwable arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub
-		System.out.println(arg0.toString());
+		System.out.println(arg1.toString());
 	}
 
 }
