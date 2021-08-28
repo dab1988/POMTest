@@ -27,15 +27,14 @@ public class BaseDriver
     public static final String USERNAME = "delankoh_uk98V2";
     public static final String AUTOMATE_KEY = "YXWCpMeSmz7fHTLUZDMw";
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
-	
-    public static void BaseUtilDeiver() throws Exception
+	public static void BaseUtilDeiver() throws Exception
 	{
 		try
 		{
 		System.setProperty("webdriver.chrome.driver", "D:\\ecclipse\\POMTest\\chromedriver.exe");
 		//System.setProperty("webdriver.chrome.silentOutput", "true");
 		//https://www.browserstack.com/docs/automate/selenium/getting-started/java#next-steps
-	/*	DesiredCapabilities caps = new DesiredCapabilities();
+		/*DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("os", "Windows");
 		caps.setCapability("os_version", "10");
 		caps.setCapability("browser", "Chrome");
