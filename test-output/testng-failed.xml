@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
-  <test name="createDiscountTest(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.seleniumPractice.checkBoxes">
+      <class name="com.qa.seleniumPractice.nestedFrames">
         <methods>
-          <include name="Close"/>
-          <include name="setUp"/>
-          <include name="test"/>
-          <include name="checkBoxes"/>
+          <include name="windowHandle"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- com.qa.seleniumPractice.checkBoxes -->
+      </class> <!-- com.qa.seleniumPractice.nestedFrames -->
     </classes>
-  </test> <!-- createDiscountTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
