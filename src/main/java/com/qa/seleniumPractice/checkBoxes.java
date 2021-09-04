@@ -15,6 +15,7 @@ public class checkBoxes
 
 	WebDriver driver;
 	//
+	//
 	@BeforeMethod
 	void setUp()
 	{
