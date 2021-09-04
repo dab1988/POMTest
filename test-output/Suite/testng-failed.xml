@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="REPORTING.extentReport"/>
-  </listeners>
-  <test name="Test(failed)">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="createDiscountTest(failed)" parallel="methods">
     <classes>
-      <class name="com.qa.test.ADDcustomerTestclass">
+      <class name="com.qa.seleniumPractice.checkBoxes">
         <methods>
-          <include name="setuP"/>
-          <include name="kill"/>
+          <include name="Close"/>
+          <include name="setUp"/>
+          <include name="test"/>
+          <include name="checkBoxes"/>
         </methods>
-      </class> <!-- com.qa.test.ADDcustomerTestclass -->
-      <class name="com.qa.test.loginTest">
-        <methods>
-          <include name="validateTitle"/>
-          <include name="captureFailedTestCase"/>
-          <include name="setUpTest"/>
-        </methods>
-      </class> <!-- com.qa.test.loginTest -->
-      <class name="com.qa.test.uiTestforLoginPage">
-        <methods>
-          <include name="setUpTest"/>
-          <include name="kill"/>
-        </methods>
-      </class> <!-- com.qa.test.uiTestforLoginPage -->
+      </class> <!-- com.qa.seleniumPractice.checkBoxes -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- createDiscountTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

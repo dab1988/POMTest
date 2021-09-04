@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21556" started-at="2021-08-28T17:57:10Z" finished-at="2021-08-28T17:57:31Z">
+  <suite name="Default suite" duration-ms="71066" started-at="2021-09-04T07:15:17Z" finished-at="2021-09-04T07:16:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21556" started-at="2021-08-28T17:57:10Z" finished-at="2021-08-28T17:57:31Z">
-      <class name="com.qa.test.createDiscountTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.createDiscountTest@402a079c]" name="setUp" is-config="true" duration-ms="9337" started-at="2021-08-28T10:57:10Z" finished-at="2021-08-28T10:57:19Z">
+    <test name="Default test" duration-ms="71066" started-at="2021-09-04T07:15:17Z" finished-at="2021-09-04T07:16:28Z">
+      <class name="com.qa.seleniumPractice.checkBoxes">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.seleniumPractice.checkBoxes@5700d6b1]" name="setUp" is-config="true" duration-ms="2625" started-at="2021-09-04T00:15:17Z" finished-at="2021-09-04T00:15:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createDiscount()[pri:0, instance:com.qa.test.createDiscountTest@402a079c]" name="createDiscount" duration-ms="12185" started-at="2021-08-28T10:57:19Z" finished-at="2021-08-28T10:57:31Z">
+        <test-method status="PASS" signature="BaicAuth()[pri:0, instance:com.qa.seleniumPractice.checkBoxes@5700d6b1]" name="BaicAuth" duration-ms="28591" started-at="2021-09-04T00:15:20Z" finished-at="2021-09-04T00:15:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createDiscount -->
-      </class> <!-- com.qa.test.createDiscountTest -->
+        </test-method> <!-- BaicAuth -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.qa.seleniumPractice.checkBoxes@5700d6b1]" name="Close" is-config="true" duration-ms="0" started-at="2021-09-04T00:15:48Z" finished-at="2021-09-04T00:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.seleniumPractice.checkBoxes@5700d6b1]" name="setUp" is-config="true" duration-ms="1913" started-at="2021-09-04T00:15:48Z" finished-at="2021-09-04T00:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkBoxes()[pri:0, instance:com.qa.seleniumPractice.checkBoxes@5700d6b1]" name="checkBoxes" duration-ms="28561" started-at="2021-09-04T00:15:50Z" finished-at="2021-09-04T00:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxes -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.qa.seleniumPractice.checkBoxes@5700d6b1]" name="Close" is-config="true" duration-ms="0" started-at="2021-09-04T00:16:19Z" finished-at="2021-09-04T00:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.seleniumPractice.checkBoxes@5700d6b1]" name="setUp" is-config="true" duration-ms="1401" started-at="2021-09-04T00:16:19Z" finished-at="2021-09-04T00:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.qa.seleniumPractice.checkBoxes@5700d6b1]" name="test" duration-ms="7931" started-at="2021-09-04T00:16:20Z" finished-at="2021-09-04T00:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.qa.seleniumPractice.checkBoxes@5700d6b1]" name="Close" is-config="true" duration-ms="1" started-at="2021-09-04T00:16:28Z" finished-at="2021-09-04T00:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.qa.seleniumPractice.checkBoxes -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
