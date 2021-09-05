@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14008" started-at="2021-09-04T17:15:38Z" finished-at="2021-09-04T17:15:52Z">
+  <suite name="Default suite" duration-ms="11282" started-at="2021-09-05T15:39:19Z" finished-at="2021-09-05T15:39:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14008" started-at="2021-09-04T17:15:38Z" finished-at="2021-09-04T17:15:52Z">
-      <class name="com.qa.seleniumPractice.nestedFrames">
-        <test-method status="PASS" signature="windowHandle()[pri:0, instance:com.qa.seleniumPractice.nestedFrames@1ce92674]" name="windowHandle" duration-ms="13204" started-at="2021-09-04T10:15:38Z" finished-at="2021-09-04T10:15:51Z">
+    <test name="Default test" duration-ms="11282" started-at="2021-09-05T15:39:19Z" finished-at="2021-09-05T15:39:30Z">
+      <class name="com.qa.seleniumPractice.RightClickandAlert">
+        <test-method status="PASS" signature="windowHandle()[pri:0, instance:com.qa.seleniumPractice.RightClickandAlert@6fd02e5]" name="windowHandle" duration-ms="11229" started-at="2021-09-05T08:39:19Z" finished-at="2021-09-05T08:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowHandle -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.seleniumPractice.nestedFrames@1ce92674]" name="close" is-config="true" duration-ms="767" started-at="2021-09-04T10:15:51Z" finished-at="2021-09-04T10:15:52Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.seleniumPractice.RightClickandAlert@6fd02e5]" name="close" is-config="true" duration-ms="1" started-at="2021-09-05T08:39:30Z" finished-at="2021-09-05T08:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.qa.seleniumPractice.nestedFrames -->
+      </class> <!-- com.qa.seleniumPractice.RightClickandAlert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
